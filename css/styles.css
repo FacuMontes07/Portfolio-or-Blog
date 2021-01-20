@@ -1,0 +1,202 @@
+/*
+Colores:
+#17a2b7
+#2d3e50
+#1b252f
+*/
+
+
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Proza Libre', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    padding: .2rem .5rem;
+    margin: auto;/*costante css*/
+   
+}
+
+header{
+    background-color: #1b252f;
+    color: white;
+   /* padding-left: 25%;
+    padding-right: 15%;*/
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5%;
+    
+}
+
+.encabezado{
+    justify-content: space-between;
+    padding-bottom: 0px;
+    
+}
+
+
+.encabezado ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezado a{
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    color: white;
+}
+
+/*hover: para cuando paso por arriba de un elemento*/
+.encabezado a:hover {
+    background-color: #17a2b7
+}
+
+.start-studio{
+    background-color: #17a2b7;
+    text-align: center;
+    color: white;
+    padding: 1.4rem 0 1% 0;
+    
+}
+
+.start-studio .avatar{
+    margin: auto;
+    max-width: 200px;
+}
+
+.divisor{
+    width: 200px;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divisor::before,
+.divisor::after{
+    content: "";
+    display: inline-block;
+    width: 80px;
+    border-bottom: 3px solid 
+}
+
+.portfolio{
+    text-align: center;
+   /* padding: 1% 25% 0 25%;*/
+}
+
+.fotos{
+    justify-content: space-between;
+}
+
+.about{
+    text-align: center;
+    background-color: #17a2b7;
+    color: white;
+    justify-content: center;
+    padding: 1% 25% 5% 25%;
+ }
+
+.contact-me{
+    text-align: center;
+         padding: 1% 25% 5% 25%;
+}
+
+#about p{
+    width: 35%;
+}
+
+.freelance{
+    margin-right: 10px;
+}
+
+.create{
+    margin-left: 10px;
+}
+
+button{
+   background-color: #17a2b7;
+   border: solid ;
+   font-size: 20px;
+   border-radius: 10px;
+    border-color: white;
+   color: white;
+    padding: 12px 12px 12px 12px;
+}
+
+button:hover{
+    background-color: #2d3e50;
+}
+
+
+
+.pre-footer{
+    color: white;
+    background-color: #2d3e50;
+    padding: 4rem 0;
+    text-align: center;
+    
+}
+
+.pre-footer article{
+    width: 33%;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.redes li{
+    margin: 0.2rem;
+}
+.redes a{
+    display: block;
+    width: 56px;
+    height: 56px;
+    border: 2px solid;
+    text-align: center;
+    line-height: 56px;
+    border-radius: 50%;
+    border-color: white;
+    color: white;
+    font-size: 18px;
+}
+
+.footer{
+    background-color: #1b252f;
+    color: white;
+    text-align: center;
+        
+}
+
+
+/*
+medida de botones redes: 56x56.
+*/
+
